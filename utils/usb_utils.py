@@ -20,6 +20,7 @@ def detect_usb_drive_with_file(filename: str):
 def usb_detection_daemon(callback: Callable[[str|None], None], filename: str, interval: float = 1):
     def daemon():
         previous_usb_path = None
+        callback(None)  # initial call
         while True:
             usb_path = detect_usb_drive_with_file(filename)
             if usb_path == previous_usb_path:

@@ -27,3 +27,17 @@ Verify the signature:
 ```bash
 python3 verify.py
 ```
+
+## Generating documentation
+
+To generate the documentation, you need to have `doxygen` installed.
+
+To generate the documentation, run in the project root directory:
+```bash
+doxygen
+```
+
+## Authors
+
+- Krawisz Bartłomiej (@ketrab2003)
+- Nieradko Stanisław (@KanarekLife)

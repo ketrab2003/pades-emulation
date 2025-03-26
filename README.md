@@ -2,6 +2,8 @@
 
 This is a project made for the course of Security of Computer Systems at the Gdańsk University of Technology.
 
+Documentation is available on the [GitHub Pages](https://ketrab2003.github.io/pades-emulation/).
+
 ## Requirements
 
 All the requirements are listed in the `requirements.txt` file. You can install them by running:
@@ -39,5 +41,5 @@ doxygen
 
 ## Authors
 
-- Krawisz Bartłomiej (@ketrab2003)
-- Nieradko Stanisław (@KanarekLife)
+- Krawisz Bartłomiej [@ketrab2003](https://github.com/ketrab2003)
+- Nieradko Stanisław [@KanarekLife](https://github.com/KanarekLife)
